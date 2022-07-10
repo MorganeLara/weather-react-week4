@@ -1,0 +1,54 @@
+ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style-type: none;
+  text-align: left;
+  padding: 0px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  display: inline;
+}
+
+.temperature {
+  font-size: 50px;
+  font-weight: 600;
+  text-align: left;
+  display: block;
+  position: relative;
+}
+
+.celcius {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+form {
+  text-align: left;
+  display: flex;
+}
+
+.col-3 {
+  padding-left: 5px;
+}
+
+.weather-attributs {
+  border: solid 0px;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: rgb(190, 224, 253, 0.2);
+  padding: 2px auto;
+}
+
+.image {
+  width: 80px;
+}
+
+hr {
+  margin-top: 0px;
+}
